@@ -10,27 +10,37 @@ body {
 .product-title {
   text-transform: uppercase;
   text-align: center;
+  font-size: 22px;
+  background-color: #f7f7f7;
 }
 
-.product-subtitle {
+.product-details {
   text-transform: uppercase;
   font-size: 16px;
 }
 
+.details-list {
+  list-style: square;
+}
 .product-price {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .free-shipping {
-  color: rgba(68, 68, 68, 0.589);
-  font-size: 10px;
+  color: #777;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: serif;
 }
 
-a {
+.more-info:link,
+.more-info:visited {
   color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
 }
 
 .add-to-cart {
@@ -38,4 +48,11 @@ a {
   background-color: black;
   border-style: none;
   text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  color: black;
+  background-color: white;
 }
