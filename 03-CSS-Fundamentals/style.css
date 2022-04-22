@@ -118,3 +118,22 @@ a:active {
   font-style: italic;
 }
 /* LVHA link visited hover active*/
+
+/* Resolving conflicts*/
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+  /*color: green !important*/
+}
