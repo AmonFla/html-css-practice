@@ -15,7 +15,7 @@ body {
 
 .container {
   width: 800px;
-  /* usan el mismo margen a ambos lados*/
+  /* uses the same margin at both sides*/
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -34,6 +34,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -199,7 +200,7 @@ nav strong {
   /* width: 800px;
   height: auto; 
   
-  si tengo los tamaños en el html se mantiene el ratio*/
+  if I have the sizes at the html it's maintain the ratio*/
   width: 100%;
   height: auto;
 }
@@ -224,7 +225,7 @@ nav a:link:last-child {
   padding: 20px;
   cursor: pointer;
 
-  position: absolute; /* la posición se toma como absoluto en base al primer padre con posición relativa*/
+  position: absolute; /* the absolute position is taken from the first parent with relative position*/
   bottom: 50px;
   right: 50px;
 }
@@ -239,7 +240,7 @@ h1::first-letter {
   color: red;
 } */
 
-/* el primer p luego de un h3*/
+/* the first p after h3*/
 /* h3 + p::first-line {
   color: red;
 } */
@@ -248,8 +249,9 @@ h2 {
   /* background-color: orangered; */
   position: relative;
 }
+
 h2::before {
-  content: "TOP"; /*content siempre debe estar, pero puede ser un string vacío*/
+  content: "TOP"; /*content must be present always, but it could be empty string*/
   background-color: #ffe70e;
   font-size: 16px;
   font-weight: bold;
