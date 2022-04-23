@@ -10,6 +10,7 @@ body {
   font-family: sans-serif;
 
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
@@ -18,6 +19,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+  /*position: relative;*/
 }
 
 .main-header {
@@ -40,6 +42,7 @@ article {
 
 .post-header {
   margin-bottom: 40px;
+  /*position: relative;*/
 }
 
 aside {
@@ -170,7 +173,7 @@ a:active {
 
 /* Resolving conflicts*/
 
-#copyright {
+/* #copyright {
   color: red;
 }
 
@@ -184,8 +187,8 @@ a:active {
 
 footer p {
   color: green;
-  /*color: green !important*/
-}
+  color: green !important
+} */
 
 /*nav a:link,
 nav strong {
@@ -214,4 +217,14 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0px;
+}
+
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute; /* la posición se toma como absoluto en base al primer padre con posición relativa*/
+  bottom: 50px;
+  right: 50px;
 }
