@@ -9,3 +9,9 @@ Some stuff to review concepts from https://www.udemy.com/course/design-and-devel
 - [CSS Tricks](https://css-tricks.com/)
 - [MDN Web Docs - Mozilla](https://developer.mozilla.org/en-US/)
 - [Markup Validation Service](https://validator.w3.org/)
+
+### CSS Layouts
+
+#### Flex Properties
+
+![Alt text](img/flex-cheat-sheet.jpg?raw=true "Image")
