@@ -1,0 +1,164 @@
+* {
+  /* style for all elements */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  background-color: #f7f7f7;
+  padding: 15px;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.product-image {
+  margin-bottom: 10px;
+}
+
+.product-price {
+  float: left;
+  font-size: 24px;
+}
+
+.free-shipping {
+  float: right;
+  margin-top: 10px;
+  color: #777;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.clear-fix::before {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.add-to-cart {
+  color: white;
+  background-color: black;
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+.add-to-cart:hover {
+  color: black;
+  background-color: white;
+}
+
+/* COLORS */
+.color {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-right: 10px;
+}
+
+.color:last-child {
+  margin-right: 0;
+}
+
+.blue {
+  background-color: #2f6ee2;
+}
+
+.red {
+  background-color: #ec2f2f;
+}
+
+.yellow {
+  background-color: #f0bf1e;
+}
+
+.green {
+  background-color: #90cc20;
+}
+
+.brown {
+  background-color: #885214;
+}
+
+/* Layout*/
+
+.column-left {
+  width: 250px;
+  float: left;
+}
+
+.column-center {
+  width: 280px;
+  float: left;
+  padding-left: 30px;
+}
+
+.column-right {
+  width: 280px;
+  float: right;
+  padding: 0 10px;
+}
