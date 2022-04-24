@@ -14,4 +14,4 @@ Some stuff to review concepts from https://www.udemy.com/course/design-and-devel
 
 #### Flex Properties
 
-![Alt text](img/flex-cheat-sheet.jpg?raw=true "Image")
+![Alt text](img/flex-cheat-sheet.png?raw=true "Image")
