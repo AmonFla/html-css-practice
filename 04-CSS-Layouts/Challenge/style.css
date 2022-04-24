@@ -54,7 +54,7 @@ p {
 
 .free-shipping {
   float: right;
-  margin-top: 10px;
+  margin-top: 8px;
   color: #777;
   font-size: 12px;
   text-transform: uppercase;
@@ -147,18 +147,19 @@ p {
 /* Layout*/
 
 .column-left {
-  width: 250px;
+  margin-right: 40px;
   float: left;
 }
 
 .column-center {
-  width: 280px;
+  width: 243px;
   float: left;
-  padding-left: 30px;
+  padding-right: 40px;
+  margin-top: 20px;
 }
 
 .column-right {
-  width: 280px;
+  width: 243px;
   float: right;
-  padding: 0 10px;
+  margin-top: 20px;
 }
