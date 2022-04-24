@@ -48,24 +48,16 @@ p {
 }
 
 .product-price {
-  float: left;
   font-size: 24px;
 }
 
 .free-shipping {
-  float: right;
   margin-top: 8px;
   color: #777;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 20px;
-}
-
-.clear-fix::before {
-  content: "";
-  clear: both;
-  display: block;
 }
 
 .product-details {
@@ -112,16 +104,18 @@ p {
 }
 
 /* COLORS */
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: left;
+}
+
 .color {
   background-color: #000;
   width: 20px;
   height: 20px;
   border: none;
-  margin-right: 10px;
-}
-
-.color:last-child {
-  margin-right: 0;
 }
 
 .blue {
@@ -146,20 +140,17 @@ p {
 
 /* Layout*/
 
-.column-left {
-  margin-right: 40px;
-  float: left;
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .column-center {
-  width: 243px;
-  float: left;
-  padding-right: 40px;
+  flex: 0 0 243px;
   margin-top: 20px;
 }
 
 .column-right {
-  width: 243px;
-  float: right;
+  flex: 0 0 243px;
   margin-top: 20px;
 }
