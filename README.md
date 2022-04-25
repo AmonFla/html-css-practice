@@ -15,3 +15,7 @@ Some stuff to review concepts from https://www.udemy.com/course/design-and-devel
 #### Flex Properties
 
 ![Alt text](img/flex-cheat-sheet.png?raw=true "Image")
+
+#### Grid Properties
+
+![Alt text](img/grid-cheat-sheet.png?raw=true "Image")
