@@ -57,6 +57,7 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 500;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -109,6 +110,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 12px;
 }
 
 /* FEATURES */
@@ -134,6 +136,7 @@ img {
   background-color: #087f5b;
   color: #ffffff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -157,6 +160,12 @@ img {
 /* CHAIRS */
 .chair {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .chair-box {
